@@ -1,0 +1,22 @@
+/* Stylesheet for all assignment .html files */
+
+body {
+	width: 100%;
+	height: 80%;
+	/*margin-bottom: 40%;*/
+	background-image: url("background4.jpg");
+	background-position: center;
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+}
+
+body{
+	font-family: Verdana, Geneva, sans-serif;
+}
+.title{
+	font-style: italic;
+}
+
+.organization{
+	font-weight: bold;
+}
