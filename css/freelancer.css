@@ -506,29 +506,33 @@ fieldset[disabled] .btn-success.active {
 }
 
 /*accordion css styling*/
-#accordion .panel-heading{
+#accordion .panel-heading {
   color: white;
   background-color: #006566;
 }
 
-.panel{
+.panel {
   border: 0;
 }
 
-#accordion .panel-body{
+#accordion .panel-body {
   color: black;
 }
 
-.intro-text .skills .design{
+.intro-text .skills .design {
   color: #006566; 
 }
+
+.success #about .title {
+  font-style: italic;
+}
 /*Trying to get About me nav bar tab to turn green when that page loads*/
-#about-me .badge{
+#about-me .badge {
   color: #18BC9C;
   background-color: white; 
 }
 /*for a line in each portfolio modal, commenting out for now
-hr.portfolioLine{
+hr.portfolioLine {
   color: black;
   border-top: solid 1px;
 }
