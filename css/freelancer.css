@@ -509,6 +509,11 @@ fieldset[disabled] .btn-success.active {
 #accordion .panel-heading {
   color: white;
   background-color: #006566;
+  text-align: center;
+}
+
+#accordion .panel-heading:hover{
+  background-color: #328384;
 }
 
 .panel {
@@ -517,6 +522,10 @@ fieldset[disabled] .btn-success.active {
 
 #accordion .panel-body {
   color: black;
+}
+
+.panel-heading {
+    cursor: pointer;
 }
 
 .intro-text .skills .design {
