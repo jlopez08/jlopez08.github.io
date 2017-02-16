@@ -542,6 +542,10 @@ fieldset[disabled] .btn-success.active {
   padding-left: 10%;
   /*text-decoration: underline;*/
 }
+
+.portfolio-section2 {
+    font-weight: bold;
+}
 /*Trying to get About me nav bar tab to turn green when that page loads*/
 #about-me .badge {
   color: #18BC9C;
