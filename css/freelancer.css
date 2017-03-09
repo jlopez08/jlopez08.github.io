@@ -512,7 +512,8 @@ fieldset[disabled] .btn-success.active {
 
 /*accordion css styling*/
 #accordion {
-  width: 85%;
+  padding-left: 5%;
+  padding-right: 5%;
 }
 
 #accordion .panel-heading {
