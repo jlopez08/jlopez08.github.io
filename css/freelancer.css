@@ -31,6 +31,11 @@ h6 {
   text-transform: uppercase;
   font-weight: 700;
 }
+
+h2.portfolio-title {
+  text-align: center;
+}
+
 hr.star-light,
 hr.star-primary {
   padding: 0;
@@ -453,7 +458,7 @@ fieldset[disabled] .btn-success.active {
   border: none;
   min-height: 100%;
   padding: 100px 0;
-  text-align: center;
+  text-align: left;
 }
 .portfolio-modal .modal-content h2 {
   margin: 0;
@@ -506,6 +511,10 @@ fieldset[disabled] .btn-success.active {
 }
 
 /*accordion css styling*/
+#accordion {
+  width: 85%;
+}
+
 #accordion .panel-heading {
   color: white;
   background-color: #006566;
@@ -522,7 +531,9 @@ fieldset[disabled] .btn-success.active {
 
 #accordion .panel-body {
   color: black;
-}
+  padding-left: 5%;
+  padding-right: 5%;
+  }
 
 .panel-heading {
     cursor: pointer;
@@ -537,9 +548,7 @@ fieldset[disabled] .btn-success.active {
 }
 
 .portfolio-section {
-  font-weight: bold;
   text-align: left;
-  padding-left: 10%;
   /*text-decoration: underline;*/
 }
 
