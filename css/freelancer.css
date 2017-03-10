@@ -526,18 +526,27 @@ fieldset[disabled] .btn-success.active {
   background-color: #328384;
 }
 
-.panel {
-  border: 0;
-}
-
 #accordion .panel-body {
   color: black;
   padding-left: 5%;
   padding-right: 5%;
   }
 
+.panel {
+  border: 0;
+}
+
 .panel-heading {
     cursor: pointer;
+}
+
+a.accordion-toggle {
+  display: block;
+  padding: 10px  15px;
+}
+
+div.panel-heading {
+  padding: 0;
 }
 
 .intro-text .skills .design {
