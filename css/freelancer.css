@@ -528,6 +528,7 @@ fieldset[disabled] .btn-success.active {
 
 #accordion .panel-body {
   color: black;
+  font-weight: bold;
   padding-left: 5%;
   padding-right: 5%;
   }
