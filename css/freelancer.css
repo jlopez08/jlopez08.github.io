@@ -571,6 +571,11 @@ div.panel-heading {
   color: #18BC9C;
   background-color: white; 
 }
+
+/*Buffer for portfolio steps*/
+.top-buffer { 
+  margin-top:60px; 
+}
 /*for a line in each portfolio modal, commenting out for now
 hr.portfolioLine {
   color: black;
